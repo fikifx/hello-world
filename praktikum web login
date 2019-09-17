@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Input From UI Design</title>
+        <style type="text/css">
+            
+body {
+    background: url(dd.jpg);
+}
+
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #D2691E;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #D2691E;
+    outline: none;
+    background: transparent;
+}
+
+.box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s; 
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+}
+
+.box input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    
+    cursor: pointer;
+    border-radius: 5px;
+}
+.box p {
+    color: #fff;
+}
+img {
+    width: 150px;
+    height: 130px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.box form {
+    position: absolute;
+    width: 600px;
+    color: #D2691E;
+    color: darkseagreen;
+    background: rgb(0,0,0,.8);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:800px;
+}
+
+.box h2 {
+    text-align: center;
+}
+div.font {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            padding-left: 10px;
+            width: 300px;
+            border: 3px solid #fff;
+            color: #fff;
+            margin: 5px;
+
+        </style>
+    </head>
+<html>    
+    <body>
+        <div class="font"><p>Nama : Moh Fiki Budiono</p>
+        <p>Nim : 182410103004</p></div>
+        <p><img src="IMG-20180730-WA0124.jpg"width="100px" alt="gambar IMG-20180730-WA0124"><p>
+        <div class="box">
+            <form>
+                <h2>Login</h2>
+                <div class="inputBox">
+                    <input type="text" name="" required="">
+                    <label>Nama</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="">
+                    <label>Nim</label>
+                </div>
+                    <p>Jenis Kelamin</p>
+                    <p><input type="radio">laki laki
+                    <input type="radio">perempuan</p>
+                <div class="inputBox">
+                    <input type="text" name="" required="">
+                    <label>Kelas</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="">
+                    <label>Nama Ortu</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="">
+                    <label>Alamat</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="">
+                    <label>No Hp</label>
+                </div>
+                <div class="inputBox">
+                    <input type="angka" name="" required="">
+                    <label>Alamat</label>
+                <input type="submit" name="" value="submit">
+            </form>
+        </div>
+
+        
+    </body>
+</html>
